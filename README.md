@@ -39,9 +39,3 @@ $ rails server
 
 詳しくは、[*Ruby on Rails チュートリアル*](https://railstutorial.jp/)
 を参考にしてください。
-
-
-## commit 1.5
-## commit 2
-## commit 3.5
-## commit 1.9
