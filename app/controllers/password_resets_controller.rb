@@ -43,7 +43,7 @@ class PasswordResetsController < ApplicationController
   end
 
   def get_user(email = nil)
-    email ||= params[:email] || params[:password_reset]&.[:email]
+    email ||= params[:email] || params[:password_reset]&.[](:email)
     @user = User.find_by(email: email&.downcase)
   end
 
